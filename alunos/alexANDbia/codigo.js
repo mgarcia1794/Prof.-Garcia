@@ -116,6 +116,16 @@ addRowTopicos(opt.titulo, opt.subtopico, opt.indice, opt.imagem);
 var listopt = new Lista("Optica", "Lista", "6");
 addListaDeExercicios(listopt.materia, listopt.nome, listopt.indice);
 
+var ondas = new Topico("Ondulatória","Estudo das ondas sonoras e eletromagnéticas. Vimos o comportamento ondulatório, e que toda onda possui: Comprimento de onda, velocidade, frequência e período.<ol>  <li>Conceitos</li>  <li>Intensidade (dB)</li>  <li>Interferência</li>  <li>Difração (Experimento de Young)</li>  <li>Cordas e Tubos</li>  <li>Efeito Doppler</li></ol>" , "7", "waves.png");
+addRowTopicos(ondas.titulo, ondas.subtopico, ondas.indice, ondas.imagem);
+
+
+var mag = new Topico("Magnetismo", "Sempre foi conhecido que os imãs naturais são corpos que seus dipolos estruturais são alinhados naturalmente, e, por isso, possuem campo magnético e exercem força magnética. Não por acidente, descobriu-se também que cargas em movimento alteram e criam campo magnético ao seu redor.<ol>  <li>Conceitos</li>  <li>Fórmulas</li>  <li>Campo Magnético em espiras</li>  <li>Indução eletromagnética</li>  <li>Corrente elétrica gerada pela variação do campo magnético</li></ol>", "8", "magnet.png");
+addRowTopicos(mag.titulo, mag.subtopico, mag.indice, mag.imagem);
+
+var listaMag = new Lista("Moderna", "Lista01", "8");
+addListaDeExercicios(listaMag.materia, listaMag.nome, listaMag.indice);
+
 //----
 
 
@@ -203,4 +213,3 @@ $("#interesses > h1").after("<hr>");
 addCuriosidade("Como o Ar Condicionado Funciona ? ", "arC.jpg", "https://super.abril.com.br/mundo-estranho/como-funciona-o-ar-condicionado/");
 
 addCuriosidade("Resumo de Termodinâmica, by TodaMateria", "engine.png", "https://www.todamateria.com.br/termodinamica/");
-
