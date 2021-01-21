@@ -177,14 +177,14 @@ addSchedule("03/12 - 19 - 20:30 hrs", "Magnetismo III ", "Entrar !", check, "htt
 //addSchedule("09/12 - 18 hrs", "Exercícios ", "Entrar !", wait, "https://meet.google.com/nds-udqs-zht");
 addSchedule("10/12 - 18:30 a 20 hrs", "Exercícios ", "Entrar !", check, "https://meet.google.com/nds-udqs-zht");
 
-addSchedule("15/12 - 18:30 a 20:00 hrs", "Hidrostática ", "Entrar !", wait, "https://meet.google.com/nds-udqs-zht");
-addSchedule("16/12 - 18 hrs", "Revisão! ", "Entrar !", wait, "https://meet.google.com/nds-udqs-zht");
+addSchedule("15/12 - 18:30 a 20:00 hrs", "Hidrostática ", "Entrar !", check, "https://meet.google.com/nds-udqs-zht");
+addSchedule("16/12 - 18 hrs", "Revisão! ", "Entrar !", check, "https://meet.google.com/nds-udqs-zht");
 
 
 //addSchedule("17/12 - 19:45 hrs", "Física Moderna ", "Entrar !", wait, "https://meet.google.com/nds-udqs-zht");
 
-addSchedule("19/01/21 - 14 hrs", "Revisão!! ", "Entrar !", wait, "https://meet.google.com/nds-udqs-zht");
-addSchedule("21/01/21 - 14 hrs", "Revisão!! ", "Entrar !", wait, "https://meet.google.com/nds-udqs-zht");
+addSchedule("20/01/21 - 15 hrs", "Revisão!! ", "Entrar !", check, "https://meet.google.com/nds-udqs-zht");
+addSchedule("21/01/21 - 18 hrs", "Revisão!! ", "Entrar !", wait, "https://meet.google.com/nds-udqs-zht");
 
 
 addSchedule("24/01/21 - Tarde", "PROVA DO ENEM!", "", "", "");
